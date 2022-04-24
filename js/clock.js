@@ -34,5 +34,4 @@ function countDown(){
 
 
 
-//setInterval(countDown, 1000);
 setInterval(nowTime, 1000);
