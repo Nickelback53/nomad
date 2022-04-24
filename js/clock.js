@@ -3,9 +3,9 @@ const clock = document.querySelector("h2#clock");
 
 
 
-
-
-
+function nowTime(){
+    clock.innerText = new Date();
+}
 
 
 
@@ -34,4 +34,5 @@ function countDown(){
 
 
 
-setInterval(countDown, 1000);
+//setInterval(countDown, 1000);
+setInterval(nowTime, 1000);
